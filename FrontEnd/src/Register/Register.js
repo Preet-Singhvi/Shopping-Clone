@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./Navbar.css"
+import "./Register.css"
 import axios from "axios"
 import { useHistory } from "react-router-dom"
 
