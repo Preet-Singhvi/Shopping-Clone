@@ -1,4 +1,4 @@
-import Register from "./Register/Navbar";
+import Register from "./Register/Register";
 import { Route, Switch } from "react-router";
 import Sign_In from "./Login/sign-in";
 import Home from "./Home/home-page";
