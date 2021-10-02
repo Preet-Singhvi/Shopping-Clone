@@ -1,0 +1,40 @@
+.home-title {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.home-title img {
+  width: 120px;
+  height: 35px;
+  color: #fff;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.btn-container button {
+  height: 30px;
+  width: 110px;
+  color: rgb(10, 148, 167);
+  border-color: white;
+  background-color: white;
+  border-width: 0px;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.btn-container button:hover {
+  background-color: rgb(10, 148, 167);
+  color: white;
+  border-radius: 5px;
+}
+.btn-container .icon-logoutbtn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container i {
+  font-size: 30px;
+  margin-right: 5px;
+}

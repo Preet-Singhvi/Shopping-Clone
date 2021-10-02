@@ -1,0 +1,30 @@
+.section-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-item {
+  display: flex;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item-info {
+  display: flex;
+}
+.item-info button {
+  background-color: lightblue;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+}
+.item-info h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.item-info .price {
+  margin-top: 15px;
+}

@@ -1,0 +1,60 @@
+.payment-logo {
+  display: flex;
+  justify-content: center;
+}
+.payment-logo img {
+  height: 30px;
+  margin-top: 10px;
+}
+.payment-section h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.payment-section .pay-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.payment-section .payment-methods {
+  border: solid black thin;
+  width: 500px;
+  height: 200px;
+}
+.payment-section .method-1 {
+  display: flex;
+  align-items: center;
+}
+.payment-section .method-2 {
+  display: flex;
+  align-items: center;
+}
+.payment-section .method-2 h4 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.payment-section select {
+  margin-left: 30px;
+  width: 130px;
+  padding-left: 5px;
+  height: 25px;
+  border-radius: 3px;
+}
+.payment-section .method-3 {
+  display: flex;
+  align-items: center;
+}
+.payment-section .pay {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.payment-section .pay-btn {
+  font-size: 20px;
+  background-color: rgb(10, 148, 167);
+  color: white;
+  border-radius: 5px;
+  border: white;
+  margin-top: 5px;
+}
