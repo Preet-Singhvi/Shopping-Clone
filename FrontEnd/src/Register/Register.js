@@ -57,10 +57,6 @@ const Register = () => {
               <label >Re-Enter Password</label>
               <br />
               <input type="password" name="reEnterPassword"  value={user.reEnterPassword}  onChange={ handleChange }/>
-              <div className="image">
-                <img src="info_i.png" alt="" />
-                <h6>Passwords must be at least 6 characters.</h6>
-              </div>
               <div className="info">
                 <h5>We will send you a text to verify your phone.</h5>
                 <h5 className="message">Message and Data rates may apply.</h5>
